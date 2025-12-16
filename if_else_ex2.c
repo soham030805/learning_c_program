@@ -7,17 +7,22 @@ int main(){
 	
 	if(age<5){
 		printf("Ticket free - Enjoy");
+		scanf("%d",&age);
 	}
 	else if(age>5 && age<12){
 		printf("Half ticket");
+		scanf("%d",&age);
 	}
-	else if(age>12 && age<60){
+	else if(age>=12 && age<60){
 		printf("Full ticket");
+		scanf("%d",&age);
 	}
-	else if(age>60 && age<75){
+	else if(age>=60 && age<75){
 		printf("senior citizon - Half ticket");
+		scanf("%d",&age);
 	}
-	else if(age>75){
+	else if(age>=75){
 		printf("Free ticket");
+		scanf("%d",&age);
 	}
 }

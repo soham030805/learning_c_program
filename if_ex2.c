@@ -6,6 +6,6 @@ int main(){
 	scanf("%d",&battery);
 	
 	if(battery<=20){
-		printf("LOW BATTERY");
+		printf("LOW BATTERY,PLEASE CHARGE YOUR DEVICE");
 	}
 }
